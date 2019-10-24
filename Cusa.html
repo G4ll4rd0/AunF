@@ -7,63 +7,76 @@
 	<body>
 		<header class="navBar">
 			<nav>
-					<ul class="navMenu">
+				<ul class="navMenu">
+					<li>
+						<a href="">HOME</a>
+					</li>
+					<li>
+						<a>FILOSOFOS</a>
+						<ul style="width:11em;">
+							<li>
+								<a href="">Nicolas Maquiavelo</a>
+							</li>
+							<li>
+								<a href="">Nicolas de Cusa</a>
+							</li>
+							<li>
+								<a href="">Miguel de Montaigne</a>
+							</li>
+							<li>
+								<a href="">Galileo Galilei</a>
+							</li>
+							<li>
+								<a href="">Dante Alighieri</a>
+							</li>
+							<li>
+								<a href="">Marsilio Ficino</a>
+							</li>
+							<li>
+								<a href="">Francis Bacon</a>
+							</li>
+							<li>
+								<a href="">Erasmo de Rotterdam</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a>CONCEPTOS</a>
+						<ul>
+							<li>
+								<a href="">Dios</a>
+							</li>
+							<li>
+								<a href="">Realidad</a>
+							</li>
+							<li>
+								<a href="">Verdad</a>
+							</li>
+								<li>
+								<a href="">Hombre</a>
+							</li>
 						<li>
-							<a href="">HOME</a>
-						</li>
-						<li>
-							<a>FILOSOFOS</a>
-							<ul style="width:11em;">
-								<li>
-									<a href="">Nicolas Maquiavelo</a>
-								</li>
-								<li>
-									<a href="">Nicolas de Cusa</a>
-								</li>
-								<li>
-									<a href="">Miguel de Montaigne</a>
-								</li>
-								<li>
-									<a href="">Galileo Galilei</a>
-								</li>
-								<li>
-									<a href="">Dante Alighieri</a>
-								</li>
-								<li>
-									<a href="">Marsilio Ficino</a>
-								</li>
-								<li>
-									<a href="">Francis Bacon</a>
-								</li>
-								<li>
-									<a href="">Erasmo de Rotterdam</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a>CONCEPTOS</a>
-							<ul>
-								<li>
-									<a href="">Dios</a>
-								</li>
-								<li>
-									<a href="">Realidad</a>
-								</li>
-								<li>
-									<a href="">Verdad</a>
-								</li>
-								<li>
-									<a href="">Hombre</a>
-								</li>
-								<li>
 									<a href="">Cosmos</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="">CONCLUSIONES</a>
-						</li>
-					</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="">CONCLUSIONES</a>
+					</li>
+					<li>
+						<a>TEAM</a>
+						<ul style="width:14em;">
+							<li id="T1"><a>Juan Pablo Anguiano Suarez del Real</a></li>
+							<li id="T2"><a>David Alejandro Arellano Madrigal</a></li>
+							<li id="T3"><a>Paulo Cesar Ayala Gutierrez</a></li>
+							<li id="T4"><a>Jacob Casillas Gomez</a></li>
+							<li id="T5"><a>Aldo Campos Zazueta</a></li>
+							<li id="T6"><a>Mauricio Enciso Hernandez</a></li>
+							<li id="T7"><a>Rafael Gallardo Vazquez</a></li>
+							<li id="T8"><a>Martin Hernandez Calvillo</a></li>
+						</ul>
+					</li>
+				</ul>
 			</nav>
 		</header>
 		<div class="background"></div>
@@ -110,5 +123,57 @@
 			</div>
 						
 		</section>
+	<script type="text/javascript">
+			document.getElementById('T1').style.opacity=.5;
+			document.getElementById('T2').style.opacity=.5;
+			document.getElementById('T3').style.opacity=.5;
+			document.getElementById('T4').style.opacity=.5;
+			document.getElementById('T5').style.opacity=.5;
+			document.getElementById('T6').style.opacity=.5;
+			document.getElementById('T7').style.opacity=.5;
+			document.getElementById('T8').style.opacity=.5;
+			var pag1 = document.getElementById('P1');
+			var pag2 = document.getElementById('P2');
+			var pag3 = document.getElementById('P3');
+			var pag4 = document.getElementById('P4');
+			var pag5 = document.getElementById('P5');
+			var pag6 = document.getElementById('P6');
+			var pag7 = document.getElementById('P7');
+			var pag8 = document.getElementById('P8');
+			if (pag1) {
+				document.getElementById('T1').style.opacity=1;
+			} 
+			else if (pag2) {
+				document.getElementById('T8').style.opacity=1;
+			} 
+			else if (pag3) {
+				document.getElementById('T7').style.opacity=1;
+			} 
+			else if (pag4) {
+				document.getElementById('T4').style.opacity=1;
+			} 
+			else if (pag5) {
+				document.getElementById('T3').style.opacity=1;
+			} 
+			else if (pag6) {
+				document.getElementById('T5').style.opacity=1;
+			}
+			else if (pag7) {
+				document.getElementById('T6').style.opacity=1;
+			}
+			else if (pag8) {
+				document.getElementById('T2').style.opacity=1;
+			} 
+			else {
+				document.getElementById('T1').style.opacity=1;
+				document.getElementById('T2').style.opacity=1;
+				document.getElementById('T3').style.opacity=1;
+				document.getElementById('T4').style.opacity=1;
+				document.getElementById('T5').style.opacity=1;
+				document.getElementById('T6').style.opacity=1;
+				document.getElementById('T7').style.opacity=1;
+				document.getElementById('T8').style.opacity=1;
+			} 
+		</script>
 	</body>
 </html>
