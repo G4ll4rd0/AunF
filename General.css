@@ -44,7 +44,13 @@ h2.title{
     font-style: normal;
     font-size: 3em;
 }
-
+h3.title{
+    color: #99760a;
+    font-family: 'Goudy Bookletter 1911';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+}
 .text {
     color: black;
     font-family: 'Goudy Bookletter 1911';
