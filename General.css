@@ -145,22 +145,10 @@ h2.title{
     color: #D6D6D6;
 }
 
-.incrementar {
-  width: 0; 
-  height: 0; 
-  border-top: 2em solid transparent;
-  border-bottom: 2em solid transparent;
-  border-left: 2em solid #CC5F4A;
-  border-right: 0;
-  background-color: transparent;
-}
-
-.disminuir {
-  width: 0; 
-  height: 0; 
-  border-top: 2em solid transparent;
-  border-bottom: 2em solid transparent;
-  border-right: 2em solid #CC5F4A;
-  border-left: 0;
-  background-color: transparent;
+h3.title{
+    color: #99760a;
+    font-family: 'Goudy Bookletter 1911';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
 }
